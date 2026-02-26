@@ -52,6 +52,7 @@
         <h1>FalSprite</h1>
         <p class="hero-sub">game-ready sprite animations from a single prompt</p>
         <p class="hero-tech">powered by nano-banana-2 &middot; BRIA bg removal &middot; OpenRouter LLM &mdash; all on fal.ai, one key</p>
+        <p class="hero-cost">estimated cost: ~$0.20 per generation (high estimate)</p>
       </div>
       <div class="hero-badge" aria-hidden="true">
         <span id="heroBadgeGrid">4x4</span>
@@ -91,15 +92,15 @@
           <span class="action-label">actions</span>
           <span id="actionCounter" class="action-counter">0/4 rows</span>
           <button class="action-chip is-active" data-action="">auto</button>
-          <button class="action-chip" data-action="idle breathing loop">idle</button>
-          <button class="action-chip" data-action="walk cycle">walk</button>
-          <button class="action-chip" data-action="run cycle">run</button>
-          <button class="action-chip" data-action="attack combo">attack</button>
-          <button class="action-chip" data-action="spell casting">cast</button>
-          <button class="action-chip" data-action="jump and land">jump</button>
-          <button class="action-chip" data-action="dance loop">dance</button>
-          <button class="action-chip" data-action="death and collapse">death</button>
-          <button class="action-chip" data-action="dodge and roll">dodge</button>
+          <button class="action-chip" data-action="idle breathing loop, weight shifts gently side to side, arms relaxed">idle</button>
+          <button class="action-chip" data-action="walk cycle, left foot forward then right foot forward, arms swing opposite to legs, clear contact-pass-up-pass phases">walk</button>
+          <button class="action-chip" data-action="run cycle, alternating left and right leg stride, one leg extends forward while the other pushes off behind, arms pump opposite to legs, torso leans forward, clear flight phase with both feet off ground">run</button>
+          <button class="action-chip" data-action="attack combo, wind-up then slash then follow-through then recover to stance">attack</button>
+          <button class="action-chip" data-action="spell casting, hands gather energy then raise then release burst then cool down">cast</button>
+          <button class="action-chip" data-action="jump, crouch then spring upward then peak in air then land and absorb impact">jump</button>
+          <button class="action-chip" data-action="dance loop, rhythmic side-to-side weight shift with arm flourishes">dance</button>
+          <button class="action-chip" data-action="death, hit reaction then stagger then knees buckle then collapse on ground">death</button>
+          <button class="action-chip" data-action="dodge roll, lean then tuck into sideways roll then unfold then return to stance">dodge</button>
           <input id="customAction" class="action-custom" type="text" placeholder="+ custom action..." spellcheck="false" />
         </div>
         <div id="imagePreview" class="image-preview hidden">
